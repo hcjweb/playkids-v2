@@ -1,0 +1,224 @@
+body {
+  font-size: 100%;
+  font-family: 'Trebuchet', 'Helvetica', sans-serif;
+  font-weight: 300;
+  width: 100% !important;
+  max-width: 1366px !important;
+  margin: 0 auto !important;
+}
+body a{
+	transition: 0.5s all ease;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+}
+
+body a:hover{
+	text-decoration:none;
+}
+
+.logo {
+  float: left;
+  padding: 1em 1em 1em 6em;
+}
+nav ul li {
+  display: inline-block;
+  padding: 3em 1em 1em 1em;
+  font-size: 1.25em;
+  font-weight: 800;
+  color:#5E345E;
+}
+nav ul li:hover {
+  color:#999;
+}
+/* Presentation */
+.presentation {
+  margin: 5% 0 2% 0;
+}
+.presentation h1 {
+  color:#5E345E;
+  font-weight: 800;
+  text-align: center;
+}
+.presentation h3 {
+  color: #999;
+  text-align: center;
+}
+/* feature */
+.feature {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.feature p {
+  color: #999;
+}
+.feature h5 {
+  color:#5E345E;
+  font-weight: 600;
+}
+.feature span {
+  color:#5E345E;
+
+}
+/* dream */
+.dream {
+  background: #666666;
+background: -moz-linear-gradient(top,  #666666 0%, #4c4c4c 35%, #4c4c4c 40%, #2b2b2b 53%, #2c2c2c 61%, #1c1c1c 91%, #111111 98%, #000000 99%, #474747 99%, #131313 100%);
+background: -webkit-linear-gradient(top,  #666666 0%,#4c4c4c 35%,#4c4c4c 40%,#2b2b2b 53%,#2c2c2c 61%,#1c1c1c 91%,#111111 98%,#000000 99%,#474747 99%,#131313 100%);
+background: linear-gradient(to bottom,  #666666 0%,#4c4c4c 35%,#4c4c4c 40%,#2b2b2b 53%,#2c2c2c 61%,#1c1c1c 91%,#111111 98%,#000000 99%,#474747 99%,#131313 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#131313',GradientType=0 );
+
+}
+.dream {
+  height: 375px;
+  margin-bottom: 5%;
+  padding: 2% 0 2% 0;
+  border: 2px solid #999;
+  border-radius: 5px;
+  line-height: 2em;
+}
+.dream h1 {
+  color: #fff;
+  text-align: center;
+}
+.dream p {
+  color: #fff;
+  text-align: center;
+}
+/* gallery */
+.gallery-index img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6%;
+  border: 2px solid #999;
+  border-radius: 5px;
+}
+.title-gallery {
+  margin: 5% 0 5% 0;
+  text-align: center;
+}
+.gallery-index {
+  background-color: #DBD095;
+  padding-bottom: 5%;
+}
+/* services */
+.services {
+  margin: 5% 0 5% 0;
+}
+.services p {
+  text-align: center;
+}
+.services h3 {
+  text-align: center;
+}
+.title-service {
+  margin: 0 0 5% 0;
+  text-align: center;
+}
+/* footer*/
+.footer{
+  background-image: url("../img/footer.jpg");
+  margin-top: 0;
+  height: 400px;
+  padding: 5% 5% 5% 5%;
+  color: #fff;
+  font-weight: 600;
+
+}
+.footer ul li {
+  color: #fff;
+}
+.footer nav {
+  padding: 0 2% 0 4%;
+  font-size: 1.25em;
+}
+.credits {
+  font-size: 1.25em;
+  padding-top: 6%;
+  color: #fff;
+  text-align: center;
+}
+.credits p a {
+  color: #fff;
+}
+footer nav ul li {
+  font-size: 1em;
+  font-weight: 300;
+  color:#5E345E;
+  padding: 2% 15% 2% 15%;
+}
+.footer > h3 {
+  font-size: 1.5em;
+}
+/* internal-feader */
+.internal-header {
+  background-image: url("../img/header.jpg");
+  height: 200px;
+}
+.internal-header h3 {
+  text-align: center;
+  line-height: 200px;
+  color: #fff;
+}
+/* about */
+.about-block {
+  height: 150px;
+  background-color: #DBD095;
+}
+.about-block h3 {
+  text-align: center;
+  line-height: 150px;
+  color: #fff;
+}
+.aside-about {
+  text-align: center;
+  line-height: 2em;
+  color: #999;
+  font-weight: 400;
+  margin-bottom: 5em;
+  margin: 5% 0 5% 0;
+
+}
+.aside-about ul li {
+  text-align: left;
+}
+.aside-about h1 {
+  color: #5E345E;
+}
+/* services */
+.services-content h3 {
+  color: #5E345E;
+}
+.services-content p {
+  color: #999;
+}
+.timeline {
+  background-color: #DBD095;
+  margin-top: 5%;
+
+}
+.timeline h3 {
+  text-align: center;
+  color: #5E345E;
+  margin-bottom: 5%;
+}
+.timeline p {
+  color: #999;
+}
+.timeline-section {
+  height: 150px;
+}
+.border {
+  border-right: 1px solid #999;
+}
+.left-ok {
+  margin-left: -23px;
+}
+.right-ok {
+  padding-left: 101%;
+}
+/* contact*/
+.form {
+  margin: 5% 0 5% 0;
+}
